@@ -52,5 +52,19 @@ button {
     color: black;
   }
 
+  /*end example one /////////////////////*/
+  .input{
+    height: 30vh;
+  }
+
+  .add-product{
+    padding:10px;
+    text-align: center;
+  }
+
+  .product-input{
+    padding:15px 10px;
+  }
+
 
 

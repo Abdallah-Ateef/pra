@@ -7,7 +7,6 @@ allitems.forEach(ele =>{
     content.innerHTML+=`${ele.children[1].textContent} - `;
     let price=ele.children[1].getAttribute('data-price');
     Total_price+=Number(price);
-    console.log(price);
     if(content !='')bttn.style.display='block';
    
    })
@@ -19,4 +18,9 @@ bttn.addEventListener('click',function(){
    pr.innerHTML=`Total-price : ${Total_price}`;
 })
 
+//End Example one //////////////////////////////////////////////////////////////////////////
+
+/* setup variable */
+
+/* Local storage*/
 
